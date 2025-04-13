@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+
+.programacao-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+.titulo h1 {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Duas colunas */
+  grid-template-rows: auto auto; /* Duas linhas */
+  gap: 10px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.item3 {
+  grid-column: 1 / -1; /* faz ele ocupar toda a linha */
+  justify-self: center; /* e ele mesmo se centraliza nessa linha */
+}
+
+@media (min-width: 1024px) {
+  .programacao-container {
+  }
+  .cards {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+  }
+  .titulo h1 {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,19 @@
+<nav class="navbar">
+  <div class="navbar-brand"><img src="../../../assets/logo.png" alt="" /></div>
+
+  <!-- Botão hambúrguer -->
+  <button class="hamburger" (click)="toggleMenu()">
+    <span class="bar"></span>
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <!-- Menu mobile -->
+  <div [class.open]="isMenuOpen" class="navbar-menu">
+    <a href="#sobre">Sobre o Evento</a>
+    <a href="#programacao">Programação</a>
+    <a href="#contato">Palestrantes</a>
+    <a href="#instricoes">Inscrições</a>
+    <a href="#Contato">Contato</a>
+  </div>
+</nav>
