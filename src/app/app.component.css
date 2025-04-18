@@ -1,5 +1,13 @@
 .header {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 150px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 9rem;
 }

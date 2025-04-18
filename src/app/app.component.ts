@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SectionSobreComponent } from './pages/section-sobre/section-sobre.component';
 import { SectionProgramacaoComponent } from './pages/section-programacao/section-programacao.component';
+import { SectionPalestrantesComponent } from './pages/section-palestrantes/section-palestrantes.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { SectionProgramacaoComponent } from './pages/section-programacao/section
     NavbarComponent,
     SectionSobreComponent,
     SectionProgramacaoComponent,
+    SectionPalestrantesComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

@@ -40,17 +40,17 @@
   }
 
   .imagem > img {
-    width: 600px;
+    width: 45rem;
   }
 
   .titulo {
     font-family: "Noto Serif", serif;
-    font-size: 55px;
+    font-size: 3rem;
     text-align: left;
   }
 
   .conteudo > p {
-    font-size: 18px;
+    font-size: 1.4rem;
     text-align: left;
   }
   .conteudo {
