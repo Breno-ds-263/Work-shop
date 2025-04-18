@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
   gap: 40px;
 }
 
@@ -36,7 +37,7 @@
   .cards {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 6rem;
   }
   .titulo h1 {
     font-size: 50px;

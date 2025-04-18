@@ -9,7 +9,7 @@
   padding: 20px;
 }
 
-.conteudo {
+.texto {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,7 +25,7 @@
 .imagem > img {
   width: 200px;
 }
-.conteudo > p {
+.texto > p {
   font-size: 12px;
 }
 
@@ -40,20 +40,21 @@
   }
 
   .imagem > img {
-    width: 45rem;
+    width: 30em;
   }
 
   .titulo {
     font-family: "Noto Serif", serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: left;
   }
 
-  .conteudo > p {
-    font-size: 1.4rem;
+  .texto > p {
+    font-size: 1.2rem;
     text-align: left;
   }
-  .conteudo {
+  .texto {
     padding: 70px;
+    width: 700px;
   }
 }

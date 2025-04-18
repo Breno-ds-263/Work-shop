@@ -36,7 +36,7 @@
   .cards {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 5rem;
   }
   .titulo h1 {
     font-size: 50px;

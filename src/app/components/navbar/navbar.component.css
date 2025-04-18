@@ -67,7 +67,11 @@
   }
 
   .navbar-brand > img {
-    width: 40%;
+    width: 30%;
+  }
+
+  .navbar-brand {
+    width: 10%;
   }
 
   .navbar {
@@ -82,10 +86,11 @@
     width: auto;
     gap: 10rem;
     padding-right: 60px;
+    padding-left: 60px;
   }
 
   .navbar-menu a {
     font-family: "Cinzel", serif;
-    font-size: 1.2rem;
+    font-size: 83%;
   }
 }

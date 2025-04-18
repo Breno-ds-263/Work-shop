@@ -1,0 +1,55 @@
+.container-inscricao {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  height: 800px;
+  gap: 5rem;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  background-color: #545454;
+  height: 70%;
+  width: 100%;
+}
+
+.text > p {
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.content > h1 {
+  text-align: center;
+}
+
+.content > button {
+  background-color: #10e1b3;
+  width: 150px;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10%;
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+  .content {
+    height: 100%;
+    width: 90%;
+  }
+  .content > h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  .text {
+    width: 50%;
+  }
+
+  .text > p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
