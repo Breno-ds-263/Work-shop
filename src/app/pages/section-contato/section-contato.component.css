@@ -1,0 +1,42 @@
+.container-contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imagem-principal > img {
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 4rem;
+}
+
+.text {
+  font-size: 70%;
+}
+
+.text > img {
+  width: 40%;
+}
+
+/*Desktop*/
+@media (min-width: 1024px) {
+  .content {
+    justify-content: center;
+    gap: 13rem;
+  }
+
+  .text {
+    font-size: 100%;
+  }
+
+  .imagem-principal > img {
+    width: 50rem;
+    height: 35rem;
+  }
+}

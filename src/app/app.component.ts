@@ -5,6 +5,7 @@ import { SectionSobreComponent } from './pages/section-sobre/section-sobre.compo
 import { SectionProgramacaoComponent } from './pages/section-programacao/section-programacao.component';
 import { SectionPalestrantesComponent } from './pages/section-palestrantes/section-palestrantes.component';
 import { SectionInscricoesComponent } from './pages/section-inscricoes/section-inscricoes.component';
+import { SectionContatoComponent } from './pages/section-contato/section-contato.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +17,7 @@ import { SectionInscricoesComponent } from './pages/section-inscricoes/section-i
     SectionProgramacaoComponent,
     SectionPalestrantesComponent,
     SectionInscricoesComponent,
+    SectionContatoComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
