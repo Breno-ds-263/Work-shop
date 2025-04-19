@@ -61,15 +61,7 @@ ng serve
 http://localhost:4200
 ```
 
----
-
-## 🙋 Sobre Mim
-
-Desenvolvido com 💙 por **Breno do Nascimento Santos**  
-📧 brenonascimento.dev@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/brenonascimentodev)
-
----
+----
 
 ## 📄 Licença
 
